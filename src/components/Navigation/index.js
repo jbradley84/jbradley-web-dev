@@ -1,35 +1,26 @@
 import React from "react";
 
 function Navigation(props) {
-   const categories = [
-      {
-         name: "about me."
-      },
-      {
-         name: "portfolio."
-      },
-      {
-         name: "contact."
-      },
-      {
-         name: "resume."
-      }
-   ];
 
-   function categorySelected(name) {
-      console.log(`${name} clicked`)
-   }
+   const {
+      pages = [],
+      setCurrentPage,
+      currentPage,
+      setPageSelected,
+      pageSelected
+   } = props;
 
    return (
       <nav>
          <ul>
-            {categories.map((category) => (
-               <li
-               className="mx-1"
-               key={category.name}
-            >
-               <span onClick={() => categorySelected(category.name)} >
-                  {category.name}
+            {pages.map((page) => (
+               <li className={`${currentPage === page 
+                  && pageSelected && 'navActive'}`} key={page.name}>
+               <span onClick={() => { 
+                  setCurrentPage(page);
+                  setPageSelected(true);
+                  }}>
+                  {page}
                </span>
             </li>
             ))}

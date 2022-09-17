@@ -1,7 +1,16 @@
 import React from "react";
 import Navigation from "../Navigation";
 
-function Header() {
+function Header(props) {
+
+   const {
+      pages,
+      setCurrentPage,
+      currentPage,
+      setPageSelected,
+      pageSelected
+   } = props;
+
    return (
       <header>
          <h1>
@@ -9,7 +18,13 @@ function Header() {
                <span>J. Bradley Whittington</span>
             </a>
          </h1>
-         <Navigation></Navigation>
+         <Navigation
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+            setPageSelected={setPageSelected}
+            pageSelected={pageSelected}
+         ></Navigation>
       </header>
    );
 }

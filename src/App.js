@@ -1,36 +1,37 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from "./components/About";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Project from "./components/Project";
-import Resume from "./components/Resume";
+import Page from "./components/Page";
 
 function App() {
-   const [categories] = useState([
-      { name: "About Me" },
-      { name: "Portfolio" },
-      { name: "Contact" },
-      { name: "Resume" }
+
+   const [pages] = useState([
+      "about me",
+      "my portfolio",
+      "get in touch",
+      "my resume"
    ]);
 
-   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+   const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  return (
-    <div>
-      <Header></Header>
-      <main>
-         <div>
-            {currentCategory === categories[0] && <About></About>}
-            {currentCategory === categories[1] && <Project></Project>}
-            {currentCategory === categories[2] && <Contact></Contact>}
-            {currentCategory === categories[3] && <Resume></Resume>}
-         </div>
-      </main>
-      <Footer></Footer>
-    </div>
-  );
+   const [pageSelected, setPageSelected] = useState(false);
+
+   return (
+      <div>
+         <Header>
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+            setPageSelected={setPageSelected}
+            pageSelected={pageSelected}
+         </Header>
+         <main>
+            <Page currentPage={currentPage}></Page>
+         </main>
+         <Footer></Footer>
+      </div>
+   );
 }
 
 export default App;
