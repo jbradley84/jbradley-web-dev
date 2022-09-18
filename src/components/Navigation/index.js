@@ -15,7 +15,7 @@ function Navigation(props) {
          <ul>
             {pages.map((page) => (
                <li className={`${currentPage === page 
-                  && pageSelected && 'navActive'}`} key={page.name}>
+                  && pageSelected && 'navActive'}`} key={page}>
                <span onClick={() => { 
                   setCurrentPage(page);
                   setPageSelected(true);
@@ -26,7 +26,7 @@ function Navigation(props) {
             ))}
          </ul>
       </nav>
-   )
+   );
 }
 
 export default Navigation;
