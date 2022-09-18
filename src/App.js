@@ -19,17 +19,17 @@ function App() {
 
    return (
       <div>
-         <Header>
+         <Header
             pages={pages}
             setCurrentPage={setCurrentPage}
             currentPage={currentPage}
             setPageSelected={setPageSelected}
             pageSelected={pageSelected}
-         </Header>
+         />
          <main>
-            <Page currentPage={currentPage}></Page>
+            <Page currentPage={currentPage} />
          </main>
-         <Footer></Footer>
+         <Footer />
       </div>
    );
 }

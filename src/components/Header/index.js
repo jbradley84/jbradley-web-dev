@@ -24,7 +24,7 @@ function Header(props) {
             currentPage={currentPage}
             setPageSelected={setPageSelected}
             pageSelected={pageSelected}
-         ></Navigation>
+         />
       </header>
    );
 }
