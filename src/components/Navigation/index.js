@@ -6,8 +6,8 @@ function Navigation(props) {
       pages = [],
       setCurrentPage,
       currentPage,
-      setPageSelected,
-      pageSelected
+      pageSelected,
+      setPageSelected
    } = props;
 
    return (

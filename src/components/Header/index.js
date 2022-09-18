@@ -15,7 +15,7 @@ function Header(props) {
       <header>
          <h1>
             <a href="/">
-               <span>j. bradley whittington</span>
+               <span>J. Bradley Whittington</span>
             </a>
          </h1>
          <Navigation

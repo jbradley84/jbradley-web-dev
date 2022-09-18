@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import About from "../About";
 import Portfolio from "../Project";
 import Contact from "../Contact";
@@ -20,11 +20,7 @@ function Page(props) {
       }
    };
 
-   return (
-      <section>
-         {printPage(currentPage)}
-      </section>
-   );
+   return <section>{printPage(currentPage)}</section>;
 }
 
 export default Page;

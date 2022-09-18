@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Page from "./components/Page";
@@ -18,13 +18,13 @@ function App() {
    const [pageSelected, setPageSelected] = useState(false);
 
    return (
-      <div>
+      <div className="wrapper">
          <Header
-            pages={pages}
             setCurrentPage={setCurrentPage}
-            currentPage={currentPage}
-            setPageSelected={setPageSelected}
+            pages={pages}
             pageSelected={pageSelected}
+            setPageSelected={setPageSelected}
+            currentPage={currentPage}
          />
          <main>
             <Page currentPage={currentPage} />
