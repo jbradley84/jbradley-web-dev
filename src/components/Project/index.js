@@ -53,13 +53,12 @@ const Portfolio = () => {
          <div>
             {projects.map((project, i) => (
                <div key={i}>
-                  <h3>{project.name}</h3>
-                  <p>
+                  <h3>
                      <a href={project.link}>{project.name}</a>
-                  </p>
-                  <p>
+                  </h3>
+                  <h4>
                      <a href={project.repo}>view the repository</a>
-                  </p>
+                  </h4>
                   <img src={project.imgsrc} alt={project.name} />
                </div>
             ))}

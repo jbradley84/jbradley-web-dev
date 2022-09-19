@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
    return (
       <div>
-         <h1>i see you looking &#128064;</h1>
+         <h1>take a peek! &#128064;</h1>
          <h2>featured skills:</h2>
          <ul>
             <li>MongoDB</li>

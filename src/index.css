@@ -85,14 +85,11 @@ header {
    background-image: url(./assets/images/low-poly-grid-haikei-flip.png);
    background-repeat: no-repeat;
    background-size: cover;
-   color: var(--primary-color);
-   text-shadow: 2px 2px 5px var(--secondary-color);
+   color: var(--primary);
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
 }
-
-
 
 header nav ul {
    display: flex;
@@ -100,6 +97,8 @@ header nav ul {
    justify-content: center;
    align-items: center;
    list-style: none;
+   color: var(--primary);
+   font-size: 1.25rem;
 }
 
 footer {
@@ -107,12 +106,17 @@ footer {
    background-image: url(./assets/images/low-poly-grid-haikei.png);
    background-repeat: no-repeat;
    background-size: cover;
-   color: var(--secondary-color);
+   color: var(--secondary);
    text-align: center;
+   
 }
 
 footer h2 {
    font-size: 4vw;
+}
+
+section img {
+   max-width: 40vw;
 }
 
 button {
@@ -164,7 +168,8 @@ input:focus {
 
 li {
    list-style: none;
-   padding: 20px;
+   
+   padding-bottom: 10px;
 }
 
 nav a:hover {
@@ -173,6 +178,7 @@ nav a:hover {
 
 nav li {
    cursor: pointer;
+   padding: 20px;
 }
 
 textarea {
