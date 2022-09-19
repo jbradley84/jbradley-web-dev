@@ -7,7 +7,7 @@ import Resume from "../Resume";
 function Page(props) {
 
    const { currentPage } = props;
-   console.log(props, currentPage);
+   //console.log(props, currentPage);
 
    const printPage = (arg) => {
       if (arg === "my portfolio") {

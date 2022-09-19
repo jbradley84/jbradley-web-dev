@@ -58,7 +58,7 @@ const Portfolio = () => {
                      <a href={project.link}>{project.name}</a>
                   </p>
                   <p>
-                     <a href={project.github}>view the repository</a>
+                     <a href={project.repo}>view the repository</a>
                   </p>
                   <img src={project.imgsrc} alt={project.name} />
                </div>
