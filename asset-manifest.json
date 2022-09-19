@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jbradley-web-dev/static/css/main.f10cfafc.css",
+    "main.js": "/jbradley-web-dev/static/js/main.9ec7615b.js",
+    "static/js/787.9e9d9958.chunk.js": "/jbradley-web-dev/static/js/787.9e9d9958.chunk.js",
+    "static/media/impressionist.png": "/jbradley-web-dev/static/media/impressionist.daa73769058b9adbfa45.png",
+    "static/media/e-comm-back-end.gif": "/jbradley-web-dev/static/media/e-comm-back-end.dd0ed54851e781d28f51.gif",
+    "static/media/pwa-text-editor.gif": "/jbradley-web-dev/static/media/pwa-text-editor.6f6625fdbb79893bbcde.gif",
+    "static/media/tappthat.png": "/jbradley-web-dev/static/media/tappthat.464c34f7fc7cebe6e8f1.png",
+    "static/media/weather-dashboard.png": "/jbradley-web-dev/static/media/weather-dashboard.042af11f94c09c2a483a.png",
+    "static/media/awkward-party-pal.png": "/jbradley-web-dev/static/media/awkward-party-pal.5e37b1c0b86dc3b8a469.png",
+    "static/media/low-poly-grid-haikei-flip.png": "/jbradley-web-dev/static/media/low-poly-grid-haikei-flip.c27b5d1897b1ededdef8.png",
+    "static/media/low-poly-grid-haikei.png": "/jbradley-web-dev/static/media/low-poly-grid-haikei.070ad1ccf4616b0ad392.png",
+    "static/media/random-password-generator.png": "/jbradley-web-dev/static/media/random-password-generator.7a1861adcaf2a37260bf.png",
+    "index.html": "/jbradley-web-dev/index.html",
+    "main.f10cfafc.css.map": "/jbradley-web-dev/static/css/main.f10cfafc.css.map",
+    "main.9ec7615b.js.map": "/jbradley-web-dev/static/js/main.9ec7615b.js.map",
+    "787.9e9d9958.chunk.js.map": "/jbradley-web-dev/static/js/787.9e9d9958.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f10cfafc.css",
+    "static/js/main.9ec7615b.js"
+  ]
+}
