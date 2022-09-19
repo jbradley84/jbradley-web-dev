@@ -2,7 +2,7 @@
 ![License badge](https://img.shields.io/badge/license-MIT-blue)
 
 ## Description
-This portfolio of my web development work is a single page application (SPA) created with React. The deployed application can be viewed [here]().
+This portfolio of my web development work is a single page application (SPA) created with React. The deployed application can be viewed [here](http://jbradley84.github.io/jbradley-web-dev).
 ![Screenshot]()
 
 
