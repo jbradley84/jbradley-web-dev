@@ -10,7 +10,7 @@ import randomPass from "../../assets/images/random-password-generator.png";
 const Portfolio = () => {
    const [projects] = useState([
       {
-         name: "TAPP THAT.",
+         name: "Tapp That.",
          imgsrc: tappThat,
          link: "https://pour-me-another.herokuapp.com/",
          repo: "https://github.com/jbradley84/pour-me-another"
@@ -49,7 +49,7 @@ const Portfolio = () => {
 
    return (
       <div>
-         <h2>my work.</h2>
+         <h1>my work.</h1>
          <div>
             {projects.map((project, i) => (
                <div key={i}>
