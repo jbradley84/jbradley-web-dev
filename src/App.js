@@ -17,6 +17,8 @@ function App() {
 
    const [pageSelected, setPageSelected] = useState(false);
 
+   console.log(currentPage);
+
    return (
       <div className="wrapper">
          <Header

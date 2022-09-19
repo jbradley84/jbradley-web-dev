@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Navigation(props) {
 
@@ -9,6 +9,11 @@ function Navigation(props) {
       pageSelected,
       setPageSelected
    } = props;
+
+   console.log(props, currentPage);
+   // useEffect(() => {
+   //    document.title = currentPage.name;
+   // }, [currentPage]);
 
    return (
       <nav>

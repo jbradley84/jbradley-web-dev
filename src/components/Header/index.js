@@ -11,6 +11,8 @@ function Header(props) {
       pageSelected
    } = props;
 
+   console.log(props);
+
    return (
       <header>
          <h1>

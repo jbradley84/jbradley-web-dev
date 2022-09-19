@@ -7,20 +7,25 @@ import Resume from "../Resume";
 function Page(props) {
 
    const { currentPage } = props;
+   console.log(props, currentPage);
 
    const printPage = (arg) => {
-      if (arg === "Portfolio") {
+      if (arg === "my portfolio") {
          return <Portfolio />;
-      } else if (arg === "Contact") {
+      } else if (arg === "get in touch") {
          return <Contact />;
-      } else if (arg === "Resume") {
+      } else if (arg === "my resume") {
          return <Resume />;
       } else {
          return <About />
       }
    };
 
-   return <section>{printPage(currentPage)}</section>;
+   return (
+      <div>
+         {printPage(currentPage)}
+      </div>
+   );
 }
 
 export default Page;
