@@ -3,7 +3,7 @@
 
 ## Description
 This portfolio of my web development work is a single page application (SPA) created with React. The deployed application can be viewed [here](http://jbradley84.github.io/jbradley-web-dev).
-![Screenshot]()
+![Screenshot](./src/assets/images/portfolio_screenshot.png)
 
 
 ## Built With
