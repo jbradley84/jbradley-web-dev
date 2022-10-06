@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import iCanHaz from "../../assets/images/i-can-haz.png";
 import tappThat from "../../assets/images/tappthat.png";
 import awkward from "../../assets/images/awkward-party-pal.png";
 import pwaText from "../../assets/images/pwa-text-editor.gif";
@@ -9,6 +10,12 @@ import randomPass from "../../assets/images/random-password-generator.png";
 
 const Portfolio = () => {
    const [projects] = useState([
+      {
+         name: "I Can Haz",
+         imgsrc: iCanHaz,
+         link: "https://i-can-hazz.herokuapp.com/",
+         repo: "https://github.com/jbradley84/i-can-haz"
+      },
       {
          name: "Tapp That.",
          imgsrc: tappThat,
@@ -39,12 +46,6 @@ const Portfolio = () => {
          link: "https://jbradley84.github.io/weather-dashboard/",
          repo: "https://github.com/jbradley84/weather-dashboard"
       },
-      {
-         name: "Random Password Generator",
-         imgsrc: randomPass,
-         link: "https://jbradley84.github.io/random-password-generator/",
-         repo: "https://github.com/jbradley84/random-password-generator"
-      }
    ]);
 
    return (
